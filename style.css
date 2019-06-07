@@ -98,7 +98,16 @@ nav button:hover {
   color: white;
 }
 
+#hamburger-section {
+  /* display: none; */
+  
+}
 
+#hamburger-icon img {
+  width: 40px;
+  position: relative;
+  left: 0;
+}
 
 /* hero section */
 main, #try-main {
@@ -306,17 +315,16 @@ small {
 /* MEDIA QUERY FOR IPHONE PORTRAIT */
 
 @media only screen 
-  and (min-device-width: 320px) 
-  and (max-device-width: 480px){
+  and (max-width: 480px){
     /* general */
     p {
-      font-size: .75em;
+      font-size: .6em;
     }
 
     /* header */
     header div {
-      margin-left: 2%;
-      width: 15%;
+      margin-left: 1%;
+      width: 20%;
       display: flex;
       align-items: center;
     }
@@ -326,7 +334,12 @@ small {
     }
 
     nav {
-      width: 30%;
+      width: 75%;
+      margin-right: 1%;
+    }
+
+    nav button {
+      width: 80px;
     }
 
     /* hero section */
@@ -345,6 +358,10 @@ small {
       margin-left: 0; 
     }
 
+    #hero-text button {
+      font-size: 1.5em;
+    }
+
     #hero-section {
       display: block;
     }
@@ -356,6 +373,20 @@ small {
 
     #hero-section img {
       height: 200px;
+    }
+
+    /* vid section */
+
+    #vid-gallery {
+      display: block;
+    }
+
+    .video {
+      width: 96%;
+    }    
+
+    .video:first-child {
+      margin-bottom: 20px;
     }
 
     /* reviews */
