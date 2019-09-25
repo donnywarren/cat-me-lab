@@ -18,9 +18,16 @@ We used [this site's explanation](https://www.ostraining.com/blog/coding/respons
 - You'll find information about using the API key in your axios call here: https://docs.thecatapi.com/authentication. We've also provided base code in your JS file to help you get it right.
 - You'll need to make **TWO API calls**.
   - The first call should occur the second the page loads, and it should populate the `select` dropdown with the categories by using the following endpoint: https://api.thecatapi.com/v1/categories. 
-  -When you add the resulting categories to the DOM, you'll need to use both the category id and the category name: `dropdown.innerHTML += `<option id=${categories[i].id}>${categories[i].name}</option>``
+  - When you add the resulting categories to the DOM, you'll need to use both the category id and the category name: `dropdown.innerHTML += `<option id=${categories[i].id}>${categories[i].name}</option>``
   - The second call should grab the selected category id and make a new API call to get a cat photo that uses that id as a parameter. This axios call should hit the `https://api.thecatapi.com/v1/images/search?category_ids=${categoryId}` endpoint.
   - Getting the value of the `id` of a selected option from a dropdown menu is TOUGH, so we'll help you out here: `const categoryId = dropdown[dropdown.selectedIndex].id`
+  
+## Bonus
+- Turn the header into a "fixed header" using positioning.
+- Add hover psuedoclasses to your links or other elements on the page.
+- Animate the "Get Started" and/or "Try It!" button(s) using CSS Animations.
+- Follow the steps to host your app on [Surge](https://surge.sh/)
+- Make your social sharing look as cute as a kitten by adding social meta tags to the `<head>` section of your `index.html` page. [This guide can help](https://css-tricks.com/essential-meta-tags-social-media/).
 
 ## Page One Wireframe
 ![](index-wireframe.png)
