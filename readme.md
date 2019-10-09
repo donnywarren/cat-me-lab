@@ -1,4 +1,7 @@
 # Feisty Chonkers on Demand
+
+![](https://media.giphy.com/media/lN9amhr8GZMhG/giphy.gif)
+
 You've been hired by Cat.me, the world's most purrr-fect tech startup to build out the landing page for their hot new app. They'd like you to build out a two page web app that matches the wireframes and specifications provided below.
 
 ## Getting Started
