@@ -39,3 +39,4 @@ We used [this site's explanation](https://www.ostraining.com/blog/coding/respons
 
 ## Page Two Wireframe
 ![](try-wireframe.png)
+
